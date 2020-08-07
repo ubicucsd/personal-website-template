@@ -31,14 +31,6 @@
   header .intro-text .skills{font-size:1.75em}
 }
 @media only screen and (max-width: 700px) {
-  /* for widths less than or equal to 629 pixels */
-  /* .column {
-    float: none !important;
-    width: 100% !important;
-  }
-  .left, .right {
-    width: 100% !important;
-  } */
   header,section,footer{width: 100rem!important;}
   .row{
     width:100% !important;
