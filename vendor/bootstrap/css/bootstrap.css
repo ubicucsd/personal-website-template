@@ -9,6 +9,16 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+@media only screen and (max-width: 2000px) {
+  /* for widths less than or equal to 629 pixels */
+  .column {
+    float: none ;
+    width: 100% ;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}
 body {
   margin: 0;
 }
