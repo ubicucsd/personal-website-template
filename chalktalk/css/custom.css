@@ -4,6 +4,8 @@
 /* Calculations */
 /* Placeholders */
 @media (min-width: 1000px) {
+
+
     #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
       position: absolute;
       content: "";
@@ -202,10 +204,13 @@
     border: 1px solid rgba(191, 191, 191, 0.4);
     border-top: 0;
     padding: 15px;
+    display: flex;
+    justify-content: center;
   }
   @media (min-width: 1000px) {
     #timeline .demo-card .body {
       height: 315px;
+     
     }
   }
   #timeline .demo-card .body p {
@@ -215,13 +220,14 @@
   }
   #timeline .demo-card .body img {
     display: block;
-    width: 100%;
+    max-height:285px;
+    max-width: 420px;
   }
   #timeline .demo-card--step1 {
-    background-color: #ce43eb;
+    background-color: #f57f33;
   }
   #timeline .demo-card--step1 .head::after {
-    border-color: #ce43eb;
+    border-color: #f57f33;
   }
   #timeline .demo-card--step2 {
     background-color: #ce43eb;
@@ -242,8 +248,8 @@
     border-color: #ce43eb;
   }
   #timeline .demo-card--step5 {
-    background-color: #ce43eb;
+    background-color: #f57f33;
   }
   #timeline .demo-card--step5 .head::after {
-    border-color: #ce43eb;
+    border-color: #f57f33;
   }
